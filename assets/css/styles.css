@@ -1,0 +1,54 @@
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1B262C;
+  }
+
+  header {
+    background-color: #0F4C75;
+    padding: 20px;
+  }
+  
+  nav a {
+    color: #BBE1FA;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #BBE1FA;
+    padding: 10px;
+    text-align: center;
+  }
+
+  h1 {
+    color: #3282B8;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  p {
+    color: #BBE1FA;
+  }
+
+  footer p {
+    color: #000000;
+  }
+  
