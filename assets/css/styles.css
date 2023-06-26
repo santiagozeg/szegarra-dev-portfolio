@@ -49,6 +49,7 @@ h1 {
   margin-bottom: 20px;
   animation: scale-up 0.5s ease-in-out;
   color: #3282B8;
+  text-align: center;
 }
 
 @keyframes scale-up {
@@ -104,4 +105,19 @@ footer p {
   font-size: 16px;
   color: #555555;
 }
-  
+
+
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  animation: fade-in 1s ease-in-out;
+  display: block; /* Centra la imagen */
+  margin: 0 auto; /* Centra la imagen */
+}
